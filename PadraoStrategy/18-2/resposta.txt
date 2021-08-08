@@ -1,0 +1,3 @@
+Strategy é menos "dinâmico" do que o state, pois no primeiro ocorrem várias trocas de objetos estados, os próprios objetos estados realizam as transições.
+No padrão State, os objetos das subclasses podem alterar o estado, ou seja, o StateA está executando seu método e no final deste mesmo método muda o estado para StateB( stateContext.setState(new StateB)).
+Já no caso do Strategy, a responsabilidade da mudança do estado fica a critério do cliente a partir de algum algoritmo(dentro uma regra de negócio)
